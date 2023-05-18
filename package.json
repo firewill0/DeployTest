@@ -7,13 +7,13 @@
     "dev": "parcel index.html",
     "build": "parcel build index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
-    
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "parcel-bundler": "^1.12.5"
   },
   "homepage": "https://firewill0.github.io/DeployTest"
